@@ -1,6 +1,6 @@
 **학생식당-Ticket-Vending Web application**
   - 학생식당 결제 및 서비스 기능 지원
-  - 간편 결제를 이용한 주문 대기 시간 등을 절약한 Websit 구축 
+  - 간편 결제를 이용한 주문 대기 시간 등을 절약한 Website 구축 
 
   기술 스택 (Tech Stack)
 

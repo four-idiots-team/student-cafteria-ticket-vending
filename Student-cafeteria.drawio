@@ -8,7 +8,7 @@
           <mxGeometry x="-65" y="-1.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zNkNhdcRpNS4lPK-cGLT-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-4" y="-40" width="485" height="485" as="geometry" />
+          <mxGeometry x="-5" y="-72" width="519" height="519" as="geometry" />
         </mxCell>
         <mxCell id="zNkNhdcRpNS4lPK-cGLT-7" value="로그인" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="75" y="52" width="120" height="29" as="geometry" />
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zNkNhdcRpNS4lPK-cGLT-4" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="279" y="452" width="33" height="76" as="geometry" />
+          <mxGeometry x="262" y="483" width="33" height="76" as="geometry" />
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-3" value="메뉴 선택" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="88" width="120" height="29" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry x="62" y="363" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-18" value="번호표 출력" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="77" y="159" width="120" height="29" as="geometry" />
+          <mxGeometry x="73" y="158" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zNkNhdcRpNS4lPK-cGLT-1" target="wiaewfCoUQoDWu5S9Ph1-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-20" value="픽업" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="192" width="120" height="29" as="geometry" />
+          <mxGeometry x="73" y="190" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wiaewfCoUQoDWu5S9Ph1-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -205,6 +205,9 @@
             <mxPoint x="550" y="39" as="sourcePoint" />
             <mxPoint x="409" y="39" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wiaewfCoUQoDWu5S9Ph1-63" value="학생식당 Ticket-Vending" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-58" width="137" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

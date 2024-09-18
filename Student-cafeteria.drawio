@@ -8,7 +8,7 @@
           <mxGeometry x="-183" y="26" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zNkNhdcRpNS4lPK-cGLT-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-93" y="-71" width="781" height="781" as="geometry" />
+          <mxGeometry x="-77" y="-81" width="781" height="781" as="geometry" />
         </mxCell>
         <mxCell id="zNkNhdcRpNS4lPK-cGLT-7" value="로그인" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="75" y="86" width="120" height="29" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry x="281" y="48" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-63" value="학생식당 Ticket-Vending" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-24" width="137" height="30" as="geometry" />
+          <mxGeometry x="245" y="-68" width="137" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5F2I87BRX-AB1hQ1D-qz-1" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNkNhdcRpNS4lPK-cGLT-1" target="wiaewfCoUQoDWu5S9Ph1-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">

@@ -23,10 +23,10 @@
           <mxGeometry x="500" y="1010" width="33" height="76" as="geometry" />
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-3" value="메뉴 선택" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-312" y="565" width="120" height="29" as="geometry" />
+          <mxGeometry x="-304" y="547" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-4" value="결제하기" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-308" y="616" width="120" height="29" as="geometry" />
+          <mxGeometry x="-304" y="625" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="wiaewfCoUQoDWu5S9Ph1-5" value="회원가입" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-308" y="463" width="120" height="29" as="geometry" />
@@ -376,6 +376,15 @@
         <mxCell id="b9mgm2ZIOSO_23rySLAU-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b9mgm2ZIOSO_23rySLAU-6">
           <mxGeometry x="-0.18" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b9mgm2ZIOSO_23rySLAU-8" value="장바구니 추가 및 확인" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-304" y="584.5" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="b9mgm2ZIOSO_23rySLAU-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNkNhdcRpNS4lPK-cGLT-1" target="b9mgm2ZIOSO_23rySLAU-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-512" y="583" as="sourcePoint" />
+            <mxPoint x="-294" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

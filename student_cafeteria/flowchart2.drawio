@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="페이지-1" id="08EBMSSgc1CJeH7uOGkZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1593" dy="1258" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g1be7m2mXeWy66zNSAPL-8" value="홈페이지" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="429" y="-368" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-10" value="학생식당" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="12" y="-250" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-11" value="식당 소개" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="g1be7m2mXeWy66zNSAPL-10">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-12" value="위치" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="g1be7m2mXeWy66zNSAPL-10">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-13" value="운영 시간&amp;nbsp;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="g1be7m2mXeWy66zNSAPL-10">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-26" value="회원가입 폼" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="526" y="-162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-31" value="로그인" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="429" y="-235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-32" value="메뉴 확인" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="228" y="-216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-33" value="결제 확인" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="254" y="175" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-36" value="번호표 발행" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="141" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-37" value="조리" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="348" y="273" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-38" value="픽업" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="503" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-39" value="식사" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="785" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-40" value="픽업 시간 체크" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="668" y="255" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-42" value="피드백 작성" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="942" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-45" value="주문" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-1" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-46" value="로그인 확인" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="456" y="-113" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-50" value="관리자 페이지" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="686" y="-310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-51" value="메뉴 추가/수장/삭제" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="725" y="-214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-53" value="메뉴 선택" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-54" value="뒷 순번으로 밀려남" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="641" y="367" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-55" value="식당 정보" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="201" y="-316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1be7m2mXeWy66zNSAPL-56" value="카드 등록" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="93" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

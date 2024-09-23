@@ -308,13 +308,10 @@
         <mxCell id="CX750_FS6fgdhHjsfeA2-9" value="No(사용자 로그인)" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CX750_FS6fgdhHjsfeA2-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CX750_FS6fgdhHjsfeA2-10" value="관리자 화면" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="525" y="-169" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="CX750_FS6fgdhHjsfeA2-11" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-2" target="CX750_FS6fgdhHjsfeA2-10">
+        <mxCell id="CX750_FS6fgdhHjsfeA2-11" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-2" target="CX750_FS6fgdhHjsfeA2-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="-190" as="sourcePoint" />
-            <mxPoint x="265" y="-190" as="targetPoint" />
+            <mxPoint x="584.1089108910887" y="-169" as="targetPoint" />
             <Array as="points">
               <mxPoint x="582" y="-240" />
             </Array>
@@ -365,14 +362,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CX750_FS6fgdhHjsfeA2-31" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-10">
+        <mxCell id="CX750_FS6fgdhHjsfeA2-31" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-33" target="CX750_FS6fgdhHjsfeA2-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="591" y="-74" as="sourcePoint" />
+            <mxPoint x="585" y="-109" as="sourcePoint" />
             <mxPoint x="585" y="2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CX750_FS6fgdhHjsfeA2-32" value="메인 화면" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="-114" y="-164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-33" value="관리자 화면" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="525" y="-165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-34" value="메뉴 확인" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="520" y="7" width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-35" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-34" target="CX750_FS6fgdhHjsfeA2-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="594" y="137" as="sourcePoint" />
+            <mxPoint x="591" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-36" value="조리" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="523" y="206" width="120" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

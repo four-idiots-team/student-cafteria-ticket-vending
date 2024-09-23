@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="페이지-1" id="WDOpKO4NPTPdkzbE7wX_">
-    <mxGraphModel dx="3880" dy="3067" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2353" dy="2118" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,9 +37,6 @@
         </mxCell>
         <mxCell id="cikBObeoJPo-PBKQ5aRE-30" value="ID/PW 체크&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
           <mxGeometry x="254.87" y="-534" width="124.25" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cikBObeoJPo-PBKQ5aRE-31" value="로그인" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="256.99" y="-281" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cikBObeoJPo-PBKQ5aRE-32" value="유효성 체크&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
           <mxGeometry x="-389.36" y="-312" width="124.25" height="80" as="geometry" />
@@ -120,10 +117,10 @@
             <mxPoint x="-307" y="-619" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cikBObeoJPo-PBKQ5aRE-55" value="" style="endArrow=classic;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="cikBObeoJPo-PBKQ5aRE-30" target="cikBObeoJPo-PBKQ5aRE-31" edge="1">
+        <mxCell id="cikBObeoJPo-PBKQ5aRE-55" value="" style="endArrow=classic;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="cikBObeoJPo-PBKQ5aRE-30" target="CX750_FS6fgdhHjsfeA2-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="104" y="-775" as="sourcePoint" />
-            <mxPoint x="267" y="-775" as="targetPoint" />
+            <mxPoint x="316.9899999999993" y="-281" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cikBObeoJPo-PBKQ5aRE-56" value="YES (로그인 성공)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontColor=#143642;" parent="cikBObeoJPo-PBKQ5aRE-55" vertex="1" connectable="0">
@@ -211,15 +208,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-317" y="-222" as="sourcePoint" />
             <mxPoint x="-48.86999999999762" y="-136" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A_9YKqtxAkf_icvJ8Hs--2" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="cikBObeoJPo-PBKQ5aRE-31" target="4lntPSZdPVpktbw4NOrN-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-257" y="-126" as="sourcePoint" />
-            <mxPoint x="106.97800000000007" y="-137.00099999999998" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="319" y="-136" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <object label="휴대폰 본인인증&amp;nbsp;" 재학생="여부" id="cikBObeoJPo-PBKQ5aRE-9">
@@ -328,6 +316,36 @@
         </mxCell>
         <mxCell id="4lntPSZdPVpktbw4NOrN-28" value="픽업" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#009999;" parent="1" vertex="1">
           <mxGeometry x="4" y="523" width="187" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-2" value="관리자 권한 유무" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="257" y="-280" width="124.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#EA6B66;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-2" target="4lntPSZdPVpktbw4NOrN-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="-190" as="sourcePoint" />
+            <mxPoint x="265" y="-190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-56" y="-240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-9" value="No(사용자 로그인)" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CX750_FS6fgdhHjsfeA2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-10" value="관리자 화면" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="525" y="-169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-11" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-2" target="CX750_FS6fgdhHjsfeA2-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="-190" as="sourcePoint" />
+            <mxPoint x="265" y="-190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="582" y="-240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-12" value="Yes(관리자 로그인)" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CX750_FS6fgdhHjsfeA2-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

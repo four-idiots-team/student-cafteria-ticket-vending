@@ -429,17 +429,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CX750_FS6fgdhHjsfeA2-49" value="수락 버튼" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="CX750_FS6fgdhHjsfeA2-49" value="조리 완료 버튼" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="524" y="358" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CX750_FS6fgdhHjsfeA2-51" value="전광판 번호표 출력" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="215" y="718" width="120" height="61" as="geometry" />
+          <mxGeometry x="217" y="559" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="CX750_FS6fgdhHjsfeA2-52" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-51" target="CX750_FS6fgdhHjsfeA2-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-118" y="792" as="sourcePoint" />
             <mxPoint x="-266" y="839" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="279" y="743" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>

@@ -423,6 +423,17 @@
             <mxPoint x="609" y="363" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-45" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-38" target="CX750_FS6fgdhHjsfeA2-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-268" y="687" as="sourcePoint" />
+            <mxPoint x="-268" y="732" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="347" y="384" />
+              <mxPoint x="364" y="739" />
+              <mxPoint x="144" y="739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

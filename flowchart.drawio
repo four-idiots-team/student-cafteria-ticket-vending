@@ -277,35 +277,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4lntPSZdPVpktbw4NOrN-14" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="4lntPSZdPVpktbw4NOrN-8" target="4lntPSZdPVpktbw4NOrN-15" edge="1">
+        <mxCell id="4lntPSZdPVpktbw4NOrN-18" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="CX750_FS6fgdhHjsfeA2-24" target="CX750_FS6fgdhHjsfeA2-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-282" y="325" as="sourcePoint" />
-            <mxPoint x="-281" y="384" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4lntPSZdPVpktbw4NOrN-15" value="결제하기" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="-345" y="377" width="124.25" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4lntPSZdPVpktbw4NOrN-17" value="결제 실패" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="-543" y="385" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4lntPSZdPVpktbw4NOrN-18" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="4lntPSZdPVpktbw4NOrN-15" target="4lntPSZdPVpktbw4NOrN-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-290" y="497" as="sourcePoint" />
-            <mxPoint x="-283" y="555" as="targetPoint" />
+            <mxPoint x="-283.183802209182" y="456.8011736278909" as="sourcePoint" />
+            <mxPoint x="-253" y="499" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4lntPSZdPVpktbw4NOrN-19" value="번호표 출력" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="-344" y="532" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4lntPSZdPVpktbw4NOrN-23" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="4lntPSZdPVpktbw4NOrN-15" target="4lntPSZdPVpktbw4NOrN-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-137" y="401" as="sourcePoint" />
-            <mxPoint x="-37" y="401" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4lntPSZdPVpktbw4NOrN-24" value="No" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="4lntPSZdPVpktbw4NOrN-23" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-339" y="617" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4lntPSZdPVpktbw4NOrN-26" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="4lntPSZdPVpktbw4NOrN-19" target="4lntPSZdPVpktbw4NOrN-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -315,7 +294,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4lntPSZdPVpktbw4NOrN-28" value="픽업" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#009999;" parent="1" vertex="1">
-          <mxGeometry x="-373" y="657" width="187" height="80" as="geometry" />
+          <mxGeometry x="-370" y="722" width="187" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CX750_FS6fgdhHjsfeA2-2" value="관리자 권한 유무" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="257" y="-280" width="124.25" height="80" as="geometry" />
@@ -347,17 +326,47 @@
         <mxCell id="CX750_FS6fgdhHjsfeA2-12" value="Yes(관리자 로그인)" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CX750_FS6fgdhHjsfeA2-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CX750_FS6fgdhHjsfeA2-15" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="4lntPSZdPVpktbw4NOrN-17" target="4lntPSZdPVpktbw4NOrN-8">
+        <mxCell id="CX750_FS6fgdhHjsfeA2-17" value="[시스템 경고]&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;결제가 실패하였습니다.&lt;br&gt;이전 페이지로 되올아갑니다.&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="-122" y="415" width="206" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-18" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="4lntPSZdPVpktbw4NOrN-8" target="CX750_FS6fgdhHjsfeA2-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="121" y="215" as="sourcePoint" />
-            <mxPoint x="221" y="215" as="targetPoint" />
+            <mxPoint x="-75" y="423" as="sourcePoint" />
+            <mxPoint x="-283.11218621742864" y="377.1527154719861" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-19" value="Yes" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CX750_FS6fgdhHjsfeA2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-23" value="결제 하기" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="-343" y="493" width="124.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-24" value="결제 화면" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="-341" y="387" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-27" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-23" target="4lntPSZdPVpktbw4NOrN-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-273" y="299" as="sourcePoint" />
+            <mxPoint x="-272" y="397" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-28" value="Yes" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CX750_FS6fgdhHjsfeA2-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-29" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-23" target="CX750_FS6fgdhHjsfeA2-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-166" y="516" as="sourcePoint" />
+            <mxPoint x="-179" y="387" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-486" y="249" />
+              <mxPoint x="-144" y="533" />
+              <mxPoint x="-144" y="417" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CX750_FS6fgdhHjsfeA2-17" value="[시스템 경고]&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;결제가 실패하였습니다.&lt;br&gt;이전 페이지로 되올아갑니다.&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="-764" y="365" width="206" height="131" as="geometry" />
+        <mxCell id="CX750_FS6fgdhHjsfeA2-30" value="No(취소하기)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" connectable="0" parent="CX750_FS6fgdhHjsfeA2-29">
+          <mxGeometry x="0.0227" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

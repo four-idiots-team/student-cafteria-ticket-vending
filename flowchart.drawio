@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="페이지-1" id="WDOpKO4NPTPdkzbE7wX_">
-    <mxGraphModel dx="2353" dy="2118" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2705" dy="2337" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
           <mxGeometry x="-387.25" y="-166" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cikBObeoJPo-PBKQ5aRE-37" value="회원 정보 입력" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=center;verticalAlign=middle;glass=0;rounded=0;labelBackgroundColor=none;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="-686" y="-454" width="199" height="156" as="geometry" />
+          <mxGeometry x="-683" y="-479" width="199" height="156" as="geometry" />
         </mxCell>
         <mxCell id="cikBObeoJPo-PBKQ5aRE-38" value="이름 / 휴대폰번호" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontColor=#143642;" parent="cikBObeoJPo-PBKQ5aRE-37" vertex="1">
           <mxGeometry y="26" width="199" height="26" as="geometry" />
@@ -204,15 +204,15 @@
             <mxPoint x="-317" y="-302" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A_9YKqtxAkf_icvJ8Hs--1" value="" style="endArrow=classic;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="cikBObeoJPo-PBKQ5aRE-34" target="4lntPSZdPVpktbw4NOrN-3" edge="1">
+        <mxCell id="A_9YKqtxAkf_icvJ8Hs--1" value="" style="endArrow=classic;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="cikBObeoJPo-PBKQ5aRE-34" target="CX750_FS6fgdhHjsfeA2-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-317" y="-222" as="sourcePoint" />
-            <mxPoint x="-48.86999999999762" y="-136" as="targetPoint" />
+            <mxPoint x="-116" y="-136" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <object label="휴대폰 본인인증&amp;nbsp;" 재학생="여부" id="cikBObeoJPo-PBKQ5aRE-9">
           <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=center;verticalAlign=middle;glass=0;rounded=0;labelBackgroundColor=none;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-            <mxGeometry x="-687" y="-691" width="199" height="130" as="geometry" />
+            <mxGeometry x="-687" y="-676" width="199" height="130" as="geometry" />
           </mxCell>
         </object>
         <object label="내/외국인" id="cikBObeoJPo-PBKQ5aRE-11">
@@ -229,12 +229,9 @@
         <mxCell id="cikBObeoJPo-PBKQ5aRE-12" value="생년월일" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontColor=#143642;" parent="cikBObeoJPo-PBKQ5aRE-9" vertex="1">
           <mxGeometry y="104" width="199" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="4lntPSZdPVpktbw4NOrN-3" value="메인 화면 이동" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="-116" y="-166" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4lntPSZdPVpktbw4NOrN-4" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="4lntPSZdPVpktbw4NOrN-3" target="4lntPSZdPVpktbw4NOrN-6" edge="1">
+        <mxCell id="4lntPSZdPVpktbw4NOrN-4" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="CX750_FS6fgdhHjsfeA2-32" target="4lntPSZdPVpktbw4NOrN-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-48" y="-67" as="sourcePoint" />
+            <mxPoint x="-55.823529411764866" y="-106" as="sourcePoint" />
             <mxPoint x="-56" y="-15" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -299,10 +296,10 @@
         <mxCell id="CX750_FS6fgdhHjsfeA2-2" value="관리자 권한 유무" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="257" y="-280" width="124.25" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CX750_FS6fgdhHjsfeA2-8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#EA6B66;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-2" target="4lntPSZdPVpktbw4NOrN-3">
+        <mxCell id="CX750_FS6fgdhHjsfeA2-8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#EA6B66;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-2" target="CX750_FS6fgdhHjsfeA2-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="-190" as="sourcePoint" />
-            <mxPoint x="265" y="-190" as="targetPoint" />
+            <mxPoint x="-56" y="-166" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-56" y="-240" />
             </Array>
@@ -367,6 +364,15 @@
           <mxGeometry x="0.0227" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-31" value="" style="endArrow=classic;rounded=0;flowAnimation=0;align=center;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="CX750_FS6fgdhHjsfeA2-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="591" y="-74" as="sourcePoint" />
+            <mxPoint x="585" y="2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CX750_FS6fgdhHjsfeA2-32" value="메인 화면" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="-114" y="-164" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

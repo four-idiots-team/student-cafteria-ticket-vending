@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="페이지-1" id="ornHel27MPxaN62uwrJq">
-    <mxGraphModel dx="2904" dy="702" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3486" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -509,7 +509,7 @@
             <mxPoint x="525.9999999999968" y="648.8699999999999" as="sourcePoint" />
             <mxPoint x="1203.5" y="395.99500000000035" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1216" y="637" />
+              <mxPoint x="776" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1107,10 +1107,10 @@
             <mxPoint x="-1" y="18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="29YUFP0ndIiCrCBxNntm-2" value="결제DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="29YUFP0ndIiCrCBxNntm-2" value="결제DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1191" y="237.75" width="61" height="53.5" as="geometry" />
         </mxCell>
-        <mxCell id="29YUFP0ndIiCrCBxNntm-3" value="결제DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="29YUFP0ndIiCrCBxNntm-3" value="결제DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-115" y="1009.5" width="61" height="53.5" as="geometry" />
         </mxCell>
       </root>

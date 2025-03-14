@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학생식당 음식 메뉴</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    .menu-item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+    }
+    .menu-item img {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      border-radius: 8px;
+    }
+    .menu-name {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-top: 10px;
+      position: relative;
+    }
+    .menu-price {
+      font-size: 1.2em;
+      color: #888;
+      margin-top: 5px;
+    }
+    .select-button {
+      margin-top: 10px;
+      padding: 8px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .info-button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      font-size: 20px;
+      cursor: pointer;
+      color: #888;
+      background: none;
+      border: none;
+    }
+    .modal, .quantity-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 700px;
+      display: flex;
+      gap: 20px;
+    }
+    .modal-image {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    .modal-details {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .modal-details label {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .close-button {
+      margin-top: 15px;
+      padding: 8px 15px;
+      background-color: #FF6347;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    /* 수량 선택 모달 스타일 */
+    .quantity-modal-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 300px;
+      width: 80%;
+    }
+    .quantity-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+      gap: 10px;
+    }
+    .quantity-bar button {
+      font-size: 20px;
+      padding: 5px 10px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .quantity-number {
+      font-size: 1.5em;
+      min-width: 30px;
+      text-align: center;
+    }
+    .quantity-done-button {
+      margin-top: 15px;
+      padding: 8px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<h1>학생식당 음식 메뉴</h1>
+
+<div class="button-container">
+  <button onclick="showMenu('western')">양식/분식</button>
+  <button onclick="showMenu('ramen')">라면/김밥</button>
+</div>
+
+<div id="menu-container" class="menu-container"></div>
+
+<!-- 상세 정보 모달 -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <img id="modal-image" class="modal-image" src="" alt="음식 이미지">
+    <div class="modal-details">
+      <h2 id="modal-title">음식 이름</h2>
+      <label for="calories">칼로리:</label>
+      <input type="text" id="calories" placeholder="칼로리 입력">
+
+      <label for="ingredients">재료:</label>
+      <input type="text" id="ingredients" placeholder="재료 입력">
+
+      <label for="origin">원산지:</label>
+      <input type="text" id="origin" placeholder="원산지 입력">
+
+      <button class="close-button" onclick="closeModal()">닫기</button>
+    </div>
+  </div>
+</div>
+
+<!-- 수량 선택 모달 -->
+<div id="quantity-modal" class="quantity-modal">
+  <div class="quantity-modal-content">
+    <h3>수량 선택</h3>
+    <div class="quantity-bar">
+      <button onclick="updateQuantity(-1)">-</button>
+      <span id="quantity-number" class="quantity-number">0</span>
+      <button onclick="updateQuantity(1)">+</button>
+    </div>
+    <button class="quantity-done-button" onclick="closeQuantityModal()">완료</button>
+  </div>
+</div>
+
+<script>
+  // 양식/분식 메뉴 데이터
+  const westernMenu = [
+    { name: '돈까스 정식', price: '4200원', img: 'donkkaseu_set.jpg' },
+    { name: '치즈 돈까스', price: '4600원', img: 'cheese_donkkaseu.jpg' },
+    { name: '고구마 치즈 돈까스', price: '4600원', img: 'sweet_potato_cheese_donkkaseu.jpg' },
+    { name: '왕돈까스', price: '4800원', img: 'king_donkkaseu.jpg' },
+    { name: '군만두', price: '1200원', img: 'fried_dumplings.jpg' },
+    { name: '만두국 + 공기밥', price: '4600원', img: 'dumpling_soup_rice.jpg' },
+    { name: '어묵 우동', price: '3900원', img: 'fishcake_udon.jpg' },
+    { name: '만두국', price: '3900원', img: 'dumpling_soup.jpg' },
+    { name: '냉면', price: '4000원', img: 'cold_noodles.jpg' },
+    { name: '짬뽕', price: '3900원', img: 'jjambbong.jpg' },
+    { name: '비빔냉면', price: '4000원', img: 'spicy_cold_noodles.jpg' }
+  ];
+
+  // 라면/김밥 메뉴 데이터
+  const ramenMenu = [
+    { name: '일반라면', price: '2600원', img: 'ramen.jpg' },
+    { name: '계란라면', price: '3100원', img: 'egg_ramen.jpg' },
+    { name: '치즈라면', price: '3100원', img: 'cheese_ramen.jpg' },
+    { name: '만두라면', price: '2900원', img: 'dumpling_ramen.jpg' },
+    { name: '떡라면', price: '2900원', img: 'tteok_ramen.jpg' },
+    { name: '일반라면 + 공기밥', price: '3400원', img: 'ramen_rice.jpg' },
+    { name: '계란라면 + 공기밥', price: '3900원', img: 'egg_ramen_rice.jpg' },
+    { name: '치즈라면 + 공기밥', price: '3900원', img: 'cheese_ramen_rice.jpg' },
+    { name: '만두라면 + 공기밥', price: '3700원', img: 'dumpling_ramen_rice.jpg' },
+    { name: '치즈떡라면 + 공기밥', price: '4000원', img: 'cheese_tteok_ramen_rice.jpg' },
+    { name: '해장라면', price: '3100원', img: 'hangover_ramen.jpg' },
+    { name: '해장라면 + 공기밥', price: '3900원', img: 'hangover_ramen_rice.jpg' },
+    { name: '공기밥 추가', price: '900원', img: 'extra_rice.jpg' },
+    { name: '치즈 추가', price: '1000원', img: 'extra_cheese.jpg' }
+  ];
+
+  function showMenu(menuType) {
+    const menuContainer = document.getElementById('menu-container');
+    menuContainer.innerHTML = '';
+    let menuData = menuType === 'western' ? westernMenu : ramenMenu;
+
+    menuData.forEach(menu => {
+      const menuItem = document.createElement('div');
+      menuItem.className = 'menu-item';
+
+      const menuName = document.createElement('div');
+      menuName.className = 'menu-name';
+      menuName.textContent = menu.name;
+
+      const menuImage = document.createElement('img');
+      menuImage.src = menu.img;
+      menuImage.alt = `${menu.name} 이미지`;
+
+      const menuPrice = document.createElement('div');
+      menuPrice.className = 'menu-price';
+      menuPrice.textContent = menu.price;
+
+      const infoButton = document.createElement('button');
+      infoButton.className = 'info-button';
+      infoButton.innerHTML = '🔍';
+      infoButton.onclick = () => showDetails(menu.name, menu.img);
+
+      const selectButton = document.createElement('button');
+      selectButton.className = 'select-button';
+      selectButton.textContent = '선택하기';
+      selectButton.onclick = openQuantityModal;
+
+      menuItem.appendChild(menuName);
+      menuItem.appendChild(menuImage);
+      menuItem.appendChild(menuPrice);
+      menuItem.appendChild(infoButton);
+      menuItem.appendChild(selectButton);
+
+      menuContainer.appendChild(menuItem);
+    });
+  }
+
+  function showDetails(name, img) {
+    document.getElementById('modal').style.display = 'flex';
+    document.getElementById('modal-image').src = img;
+    document.getElementById('modal-title').textContent = name;
+  }
+
+  function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+  }
+
+  function openQuantityModal() {
+    document.getElementById('quantity-number').textContent = '0';
+    document.getElementById('quantity-modal').style.display = 'flex';
+  }
+
+  function closeQuantityModal() {
+    document.getElementById('quantity-modal').style.display = 'none';
+  }
+
+  function updateQuantity(change) {
+    const quantityElement = document.getElementById('quantity-number');
+    let quantity = parseInt(quantityElement.textContent);
+    quantity += change;
+
+    if (quantity < 0) quantity = 0;
+    if (quantity > 99) quantity = 99;
+
+    quantityElement.textContent = quantity;
+  }
+</script>
+</body>
+</html>

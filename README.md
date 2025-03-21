@@ -17,8 +17,9 @@
   # 백엔드 (Backend)
     - Node.js: 
               서버 사이드 자바스크립트 런타임 환경
-    - MariaDB: 
+    - MySQL: 
               MySQL 데이터베이스 사용
+
     - Spring Boot:
     - Spring Data JPA:
             Hibernate: 

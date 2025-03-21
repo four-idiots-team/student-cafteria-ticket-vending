@@ -43,17 +43,17 @@ AWS (Amazon Web Services): 클라우드 서버 및 데이터베이스 호스팅
 
 
 
-- -Spring Security 로그인 기능 구현 완료
-- -home.html(메인 페이지) -> main.html로 교체 예정, login.html(로그인 페이지), join.html(회원가입 페이지), admin.html(관리자 페이지)
-- -main.html -> .html, .css, .js로 파일 Partition 완료
+- Spring Security 로그인 기능 구현 완료
+- home.html(메인 페이지) -> main.html로 교체 예정, login.html(로그인 페이지), join.html(회원가입 페이지), admin.html(관리자 페이지)
+- main.html -> .html, .css, .js로 파일 Partition 완료
 
   
 ##추후 일정
 
 
 
-  -- 로그인 페이지 Decoration(꾸미기)
-  -- 결제 기능 구현
-  -- 장바구니 페이지 구현
-  -- Oauth2 API 사용하여 구글 로그인, 카카오 로그인, 네이버 로그인 인증 절차 구현할 예정
+  - 로그인 페이지 Decoration(꾸미기)
+  - 결제 기능 구현
+  - 장바구니 페이지 구현
+  - Oauth2 API 사용하여 구글 로그인, 카카오 로그인, 네이버 로그인 인증 절차 구현할 예정
 

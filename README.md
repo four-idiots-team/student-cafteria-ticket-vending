@@ -39,7 +39,7 @@ AWS (Amazon Web Services): 클라우드 서버 및 데이터베이스 호스팅
 
 
 
-##완료사항
+#⭐⭐⭐완료사항
 
 
 
@@ -48,7 +48,7 @@ AWS (Amazon Web Services): 클라우드 서버 및 데이터베이스 호스팅
 - main.html -> .html, .css, .js로 파일 Partition 완료
 
   
-##추후 일정
+#🖥️추후 일정
 
 
 
